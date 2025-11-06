@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![VisionRestore Pro Banner](docs/images/banner.png)
+![VisionRestore Pro Banner](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/banner.png)
 
 **Advanced Image Restoration with Intelligent Degradation-Aware Processing**
 
@@ -52,33 +52,24 @@
 
 ### Application Interface
 
-![VisionRestore Pro Interface](docs/screenshots/main_interface.png)
+![VisionRestore Pro Interface](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/ui.png)
 *Main application interface with tabbed navigation and real-time controls*
 
 ### Restoration Results
 
-![Restoration Results](docs/screenshots/restoration_results.png)
+![Restoration Results](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/uires.png)
 *Complete restoration pipeline: Input → Restored → Ground Truth comparison*
-
-### Real-World Example
-
-<div align="center">
-
-| Input (Degraded) | Restored | Ground Truth |
-|:----------------:|:--------:|:------------:|
-| ![Input](docs/examples/input_example.png) | ![Restored](docs/examples/restored_example.png) | ![GT](docs/examples/gt_example.png) |
-| Noisy + Blurred | **+8.95 dB PSNR** | Reference |
-| PSNR: 15.45 dB | PSNR: 24.39 dB | - |
-| SSIM: 0.2269 | SSIM: 0.8163 | - |
-
-</div>
 
 ### Custom Degradation Pipeline
 
-![Custom Degradation](docs/screenshots/degradation_interface.png)
-*Interactive degradation tools: Create custom test scenarios with noise, blur, and custom kernels*
+<p align="center">
+  <img src="https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/kernelact.png" width="45%" />
+  <img src="https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/kernelact2.png" width="45%" />
+</p>
 
-![Custom Kernel Editor](docs/screenshots/kernel_editor.png)
+<p align="center"><em>7×7 custom kernel editor with real-time visualization and blur strength control</em></p>
+
+
 *7×7 custom kernel editor with real-time visualization and blur strength control*
 
 ---
@@ -104,7 +95,7 @@
 
 ### 🔬 Advanced Restoration Algorithms
 
-![Motion Deblurring Pipeline](docs/diagrams/deblurring_pipeline.png)
+![Motion Deblurring Pipeline](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/deblur_pipeline.png)
 *Motion deblurring pipeline: Denoising → PSF Estimation → Deconvolution → Enhancement*
 
 **Core Techniques:**
@@ -151,7 +142,7 @@ Create realistic test scenarios with full control:
 
 ### 📊 Comprehensive Quality Metrics
 
-![Quality Metrics](docs/screenshots/quality_metrics.png)
+![Quality Metrics](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/metrics.png)
 *Real-time quality metrics with improvement indicators*
 
 **Measured Metrics:**
@@ -431,12 +422,12 @@ USER INTERACTION                    PROCESSING ENGINE
 
 ### Processing Pipeline Overview
 
-![Enhancement Pipeline](docs/diagrams/enhancement_pipeline.png)
+![Enhancement Pipeline](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/enhanc.png)
 *Complete image enhancement pipeline with automatic contrast, color correction, and detail enhancement*
 
 ### Motion Deblurring Pipeline
 
-![Deblurring Pipeline](docs/diagrams/motion_deblurring_pipeline.png)
+![Deblurring Pipeline](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/motion_deblur.png)
 
 **Pipeline Stages:**
 
@@ -494,7 +485,7 @@ USER INTERACTION                    PROCESSING ENGINE
 
 ### Restoration Results Pipeline
 
-![Pipeline Stages](docs/screenshots/pipeline_stages.png)
+![Pipeline Stages](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/arch.png)
 *Visual representation: Input → Denoised → Wiener Deconv → Final Result*
 
 ### System Architecture
@@ -566,6 +557,8 @@ USER INTERACTION                    PROCESSING ENGINE
 **Iterative blind deconvolution with Total Variation regularization**
 
 #### Algorithm Overview Diagram
+
+![Algorithm Overview](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/algo.png)
 
 ```mermaid
 graph TD
@@ -1434,7 +1427,7 @@ Blur Severity ≥ 0.7?
 
 #### Quality Improvement Statistics
 
-![Performance Results](docs/charts/performance_summary.png)
+![Performance Results](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/performance.png)
 
 **PSNR Results:**
 
@@ -1458,7 +1451,7 @@ Blur Severity ≥ 0.7?
 
 ### PSNR Improvements by Sample
 
-![PSNR Improvements](docs/charts/psnr_improvements.png)
+![PSNR Improvements](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/psnr.png)
 
 | Sample | PSNR Improvement (dB) | Status |
 |--------|----------------------|--------|
@@ -1483,7 +1476,7 @@ Blur Severity ≥ 0.7?
 
 ### SSIM Improvements by Sample
 
-![SSIM Improvements](docs/charts/ssim_improvements.png)
+![SSIM Improvements](https://github.com/C-loud-Nine/VisionRestorePro-Classical_Image_Restoration_System-IPCV_Project/blob/main/assets/ssim.png)
 
 | Sample | SSIM Improvement | Status |
 |--------|------------------|--------|
@@ -1625,61 +1618,6 @@ def compute_comprehensive_metrics(
     
     Returns: dict with input, final, and improvement values
     """
-```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how:
-
-### Ways to Contribute
-
-1. **🐛 Report Bugs**
-   - Use [GitHub Issues](https://github.com/yourusername/visionrestore-pro/issues)
-   - Include steps to reproduce
-   - Provide system information
-
-2. **💡 Suggest Features**
-   - Open a feature request
-   - Describe use case
-   - Discuss implementation
-
-3. **🔧 Submit Code**
-   - Fork repository
-   - Create feature branch
-   - Write tests
-   - Submit pull request
-
-### Development Setup
-
-```bash
-# Clone your fork
-git clone https://github.com/yourusername/visionrestore-pro.git
-cd visionrestore-pro
-
-# Create environment
-python -m venv venv
-source venv/bin/activate
-
-# Install dev dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-pytest tests/ -v
-
-# Run linters
-flake8 src/
-black src/ --check
-```
-
-### Code Style
-
-- Follow PEP 8
-- Use type hints
-- Write docstrings (NumPy format)
-- Add tests for new features
-- Comment complex algorithms
 
 ---
 
